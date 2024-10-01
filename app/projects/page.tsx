@@ -15,7 +15,7 @@ export default function ProjectsPage() {
 				something that piques your interest, check out the code and contribute
 				if you have ideas for how it can be improved.
 			</Heading>
-			<div className="flex flex-col gap-16 xl:grid xl:grid-cols-3 xl:gap-24">
+			<div className="flex flex-col gap-16 lg:grid lg:grid-cols-3 lg:gap-24">
 				{employers.map(
 					({ company, icon, url, position, duration, description }) => (
 						<div key={company} className="flex flex-col gap-4 pb-4">

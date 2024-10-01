@@ -23,12 +23,12 @@ export default function Index() {
 
 			<ImageGallery />
 
-			<div className="flex w-full pt-28 flex-col xl:flex-row">
+			<div className="flex w-full pt-28 flex-col lg:flex-row">
 				<div className="flex w-full">
 					<BlogPosts />
 				</div>
 
-				<div className="flex flex-col w-full xl:pl-36 gap-11 pt-16 xl:pt-0">
+				<div className="flex flex-col w-full lg:pl-36 gap-11 pt-16 lg:pt-0">
 					<Newsletter />
 
 					<Work />

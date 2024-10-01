@@ -5,7 +5,7 @@ const imageGallery = ["draco", "thanos", "mochi", "rogue"];
 
 export default function ImageGallery() {
 	return (
-		<div className="flex flex-row justify-center gap-2 xl:gap-6">
+		<div className="flex flex-row justify-center gap-2 lg:gap-6">
 			{imageGallery.map((image) => (
 				<Image
 					src={`/static/media/${image}.png`}
@@ -14,7 +14,7 @@ export default function ImageGallery() {
 					width={320}
 					height={320}
 					style={{ objectFit: "cover", aspectRatio: 1 }}
-					className="rounded-lg xl:rounded-2xl h-[80px] xl:h-full"
+					className="rounded-lg lg:rounded-2xl h-[80px] lg:h-full"
 				/>
 			))}
 		</div>

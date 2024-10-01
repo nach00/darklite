@@ -23,7 +23,7 @@ interface MainNavProps {
 export default function MainNav({ className }: MainNavProps) {
 	return (
 		<nav className={`${className}`}>
-			<Tabs defaultValue="account" className="hidden xl:flex">
+			<Tabs defaultValue="account" className="hidden lg:flex">
 				<TabsList>
 					{navItems.map((item) => (
 						<TabsTrigger key={item.href} value={item.label}>
@@ -37,7 +37,7 @@ export default function MainNav({ className }: MainNavProps) {
 				<AlertDialogTrigger
 					className={cn(
 						buttonVariants({ variant: "secondary", size: "icon" }),
-						"xl:hidden",
+						"lg:hidden",
 					)}
 				>
 					<Menu className="h-4 w-4" />

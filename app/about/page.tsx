@@ -3,8 +3,8 @@ import Heading from "@/components/heading";
 import React from "react";
 export default function AboutPage() {
 	return (
-		<div className="flex flex-col-reverse xl:flex-row">
-			<div className="flex flex-col xl:w-1/2">
+		<div className="flex flex-col-reverse lg:flex-row">
+			<div className="flex flex-col lg:w-1/2">
 				<Heading title="I’m Natcha. I live in Dallas, Texas, where I design the future.">
 					I’m Natcha, a UX/UI designer and front-end developer based in Dallas,
 					TX. I’m the co-founder and CEO of Planet Nacho, where we develop
@@ -27,17 +27,17 @@ export default function AboutPage() {
 					the next generation of kids really can make it to orbit — from the
 					comfort of their own backyards.
 				</Heading>
-				<ContactLinks className="xl:hidden" />
+				<ContactLinks className="lg:hidden" />
 			</div>
 
-			<div className="pb-16 xl:pb-0 xl:pl-20 xl:w-1/2 flex flex-col">
+			<div className="pb-16 lg:pb-0 lg:pl-20 lg:w-1/2 flex flex-col">
 				<img
 					src="/static/media/profile.jpg"
 					alt="AI generated"
 					className="rounded-2xl"
 				/>
 
-				<ContactLinks className="hidden xl:flex" />
+				<ContactLinks className="hidden lg:flex" />
 			</div>
 		</div>
 	);

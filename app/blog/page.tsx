@@ -18,21 +18,21 @@ export default async function Blog() {
 			<div className="flex flex-col gap-9 pb-16 w-full min-w-full">
 				<div className="flex flex-col gap-6 w-full" />
 
-				<main className="flex flex-col gap-16 w-full xl:border-l xl:pl-9 xl:border-base-3 max-w-[768px]">
+				<main className="flex flex-col gap-16 w-full lg:border-l lg:pl-9 lg:border-base-3 max-w-[768px]">
 					{blogs.map((blog) => (
 						<article
 							key={blog.slug}
-							className="flex flex-col xl:flex-row xl:gap-24 w-full"
+							className="flex flex-col lg:flex-row lg:gap-24 w-full"
 						>
-							<Muted className="w-[240px] hidden xl:flex text-base-9">
+							<Muted className="w-[240px] hidden lg:flex text-base-9">
 								{blog.frontmatter.date}
 							</Muted>
 
-							<Eyebrow className="flex xl:hidden">
+							<Eyebrow className="flex lg:hidden">
 								{blog.frontmatter.date}
 							</Eyebrow>
 
-							<div className="flex flex-col max-w-[768px] w-full xl:pl-8">
+							<div className="flex flex-col max-w-[768px] w-full lg:pl-8">
 								<TextStack
 									title={blog.frontmatter.title}
 									description={blog.frontmatter.description}

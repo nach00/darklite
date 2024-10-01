@@ -6,7 +6,7 @@ import React from "react";
 export function SiteHeader() {
 	return (
 		<header className="flex w-full justify-between pt-6 pb-24">
-			<Avatar className="w-10 h-10 sticky hidden xl:flex">
+			<Avatar className="w-10 h-10 sticky hidden lg:flex">
 				{/* TODO: link avatar to home, activate home tab in navbar*/}
 
 				{/*<Link href="/">*/}

@@ -28,10 +28,10 @@ export default function CategoryContentList({
 			{sections.map(({ section, data }: SectionProps) => (
 				<div
 					key={section}
-					className="xl:border-l xl:border-base-3 xl:pl-12 flex flex-col xl:flex-row"
+					className="lg:border-l lg:border-base-3 lg:pl-12 flex flex-col lg:flex-row"
 				>
 					<H4 className="min-w-[120px] pb-8">{section}</H4>
-					<div className="flex flex-col gap-16 xl:gap-24 max-w-[640px] xl:pl-12">
+					<div className="flex flex-col gap-16 lg:gap-24 max-w-[640px] lg:pl-12">
 						{data.map(
 							({ name, url, urlLabel, title, description }: SectionItem) => (
 								<div key={name} className="flex flex-col">
