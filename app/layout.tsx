@@ -27,7 +27,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 					disableTransitionOnChange
 				>
 					<Theme appearance="inherit">
-						<div className="flex flex-col w-[360px] l:w-[1216px] h-full l:border-x l:border-base-3 l:px-24 px-4">
+						<div className="flex flex-col w-[360px] lg:w-[1216px] h-full lg:border-x lg:border-base-3 lg:px-24 px-4">
 							<SiteHeader />
 							<div className="pt-9 pb-24">{children}</div>
 							<SiteFooter />
