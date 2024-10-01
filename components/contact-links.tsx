@@ -6,10 +6,14 @@ import Link from "next/link";
 import React from "react";
 import { siGmail } from "simple-icons";
 
-export default function ContactLinks() {
+interface ContactLinksProps {
+	className?: string;
+}
+
+export default function ContactLinks({ className }: ContactLinksProps) {
 	return (
 		<>
-			<div className="gap-6 flex flex-col py-9">
+			<div className={`gap-6 flex flex-col py-9 ${className}`}>
 				{socialLinks.map(({ platform, icon, url }) => (
 					<Link
 						key={platform}
@@ -33,7 +37,7 @@ export default function ContactLinks() {
 				target="_blank"
 				rel="noopener noreferrer"
 				aria-label="Send email"
-				className="flex flex-row items-center gap-4 border-t pt-9"
+				className={`flex flex-row items-center gap-4 border-t border-base-3 pt-9 ${className}`}
 			>
 				<img
 					src={`https://cdn.simpleicons.org/${siGmail.slug}/_/eee`}

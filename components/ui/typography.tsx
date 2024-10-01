@@ -265,7 +265,7 @@ const Eyebrow = forwardRef<
 			{...props}
 			ref={ref}
 			className={cn(
-				"border-l-2 text-muted-foreground pl-4 not-italic text-sm mb-4",
+				"border-l-2 text-muted-foreground pl-4 not-italic text-sm mb-4 text-base-9",
 				props.className,
 			)}
 		>

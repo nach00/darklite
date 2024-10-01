@@ -6,13 +6,7 @@ import React from "react";
 export function SiteHeader() {
 	return (
 		<header className="flex w-full justify-between pt-6 pb-24">
-			<Avatar
-				className="w-10 h-10 sticky"
-				// style={{
-				// 	transformOrigin: "left",
-				// 	transform: "matrix(1, 0, 0, 1, 0, 0)",
-				// }}
-			>
+			<Avatar className="w-10 h-10 sticky hidden xl:flex">
 				{/* TODO: link avatar to home, activate home tab in navbar*/}
 
 				{/*<Link href="/">*/}
@@ -21,9 +15,7 @@ export function SiteHeader() {
 				{/*</Link>*/}
 			</Avatar>
 
-			{/*<img src="/static/media/n-logo.svg" alt="Logo" className="w-10 h-10"/>*/}
-
-			<MainNav />
+			<MainNav className="" />
 			<ModeToggle />
 		</header>
 	);

@@ -6,8 +6,8 @@ import Link from "next/link";
 
 export function SiteFooter() {
 	return (
-		<footer className="flex w-full justify-between mt-10 pt-10 pb-16 border-t border-base-3">
-			<nav className="flex gap-8">
+		<footer className="flex xl:flex-row flex-col gap-10 text-center w-full xl:justify-between mt-10 pt-10 pb-16 border-t border-base-3">
+			<nav className="flex justify-between xl:gap-8">
 				{navItems.map((item) => (
 					<Link
 						key={item.label}

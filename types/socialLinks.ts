@@ -6,7 +6,7 @@ import { siGithub, siInstagram, siLinkedin, siX } from "simple-icons";
 export type SocialLinksProps = {
 	platform: string;
 	icon: SimpleIcon;
-	url: url;
+	url: string;
 };
 
 export const socialLinks: SocialLinksProps[] = [

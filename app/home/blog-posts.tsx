@@ -1,8 +1,6 @@
 import { getBlogs } from "@/app/blog/fetchers";
 import TextStack from "@/components/text-stack";
-import { Eyebrow, H4, Muted, P, Small } from "@/components/ui/typography";
-import { ChevronRight } from "lucide-react";
-import Link from "next/link";
+import { Eyebrow } from "@/components/ui/typography";
 // TODO: add link styling
 
 export default async function BlogPosts() {

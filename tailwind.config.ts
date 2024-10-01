@@ -12,71 +12,71 @@ const config: Config = {
 		extend: {
 			colors: {
 				base: {
-					0: "hsl(var(--base-0))",
-					1: "hsl(var(--base-1))", //        "app-bg", //               1  - App background
-					2: "hsl(var(--base-2))", //        "subtle-bg", //            2  - Subtle background
-					3: "hsl(var(--base-3))", //        "ui", //                   3  - UI element background
-					4: "hsl(var(--base-4))", //        "ui-hover", //             4  - Hovered UI element background
-					5: "hsl(var(--base-5))", //        "ui-active", //            5  - Active / Selected UI element background
-					6: "hsl(var(--base-6))", //        "border-subtle", //        6  - Subtle borders and separators
-					7: "hsl(var(--base-7))", //        "border", //               7  - UI element border and focus rings
-					8: "hsl(var(--base-8))", //        "border-hover", //         8  - Hovered UI element border
-					9: "hsl(var(--base-9))", //        "solid", //                9  - Solid backgrounds
-					10: "hsl(var(--base-10))", //        "solid-hover", //          10 - Hovered solid backgrounds
-					11: "hsl(var(--base-11))", //        "foreground-secondary", // 11 - Low-contrast text
-					12: "hsl(var(--base-12))", //        "foreground-primary", //   12 - High-contrast text
+					0: "var(--base-0)",
+					1: "var(--base-1)", //        "app-bg", //               1  - App background
+					2: "var(--base-2)", //        "subtle-bg", //            2  - Subtle background
+					3: "var(--base-3)", //        "ui", //                   3  - UI element background
+					4: "var(--base-4)", //        "ui-hover", //             4  - Hovered UI element background
+					5: "var(--base-5)", //        "ui-active", //            5  - Active / Selected UI element background
+					6: "var(--base-6)", //        "border-subtle", //        6  - Subtle borders and separators
+					7: "var(--base-7)", //        "border", //               7  - UI element border and focus rings
+					8: "var(--base-8)", //        "border-hover", //         8  - Hovered UI element border
+					9: "var(--base-9)", //        "solid", //                9  - Solid backgrounds
+					10: "var(--base-10)", //      "solid-hover", //          10 - Hovered solid backgrounds
+					11: "var(--base-11)", //      "foreground-secondary", // 11 - Low-contrast text
+					12: "var(--base-12)", //      "foreground-primary", //   12 - High-contrast text
 				},
-				"app-bg": "hsl(var(--base-1))",
-				"subtle-bg": "hsl(var(--base-2))",
-				ui: "hsl(var(--base-3))",
-				"ui-hover": "hsl(var(--base-4))",
-				"ui-active": "hsl(var(--base-5))",
-				"border-subtle": "hsl(var(--base-6))",
-				border: "hsl(var(--base-7))",
-				"border-hover": "hsl(var(--base-8))",
-				solid: "hsl(var(--base-9))",
-				"solid-hover": "hsl(var(--base-10))",
-				"foreground-secondary": "hsl(var(--base-11))",
-				"foreground-primary": "hsl(var(--base-12))",
-				background: "hsl(var(--background))",
-				foreground: "hsl(var(--foreground))",
+				"app-bg": "var(--base-1)",
+				"subtle-bg": "var(--base-2)",
+				ui: "var(--base-3)",
+				"ui-hover": "var(--base-4)",
+				"ui-active": "var(--base-5)",
+				"border-subtle": "var(--base-6)",
+				border: "var(--base-7)",
+				"border-hover": "var(--base-8)",
+				solid: "var(--base-9)",
+				"solid-hover": "var(--base-10)",
+				"foreground-secondary": "var(--base-11)",
+				"foreground-primary": "var(--base-12)",
+				background: "var(--background)",
+				foreground: "var(--foreground)",
 				card: {
-					DEFAULT: "hsl(var(--card))",
-					foreground: "hsl(var(--card-foreground))",
+					DEFAULT: "var(--card)",
+					foreground: "var(--card-foreground)",
 				},
 				popover: {
-					DEFAULT: "hsl(var(--popover))",
-					foreground: "hsl(var(--popover-foreground))",
+					DEFAULT: "var(--popover)",
+					foreground: "var(--popover-foreground)",
 				},
 				primary: {
-					DEFAULT: "hsl(var(--primary))",
-					foreground: "hsl(var(--primary-foreground))",
+					DEFAULT: "var(--primary)",
+					foreground: "var(--primary-foreground)",
 				},
 				secondary: {
-					DEFAULT: "hsl(var(--secondary))",
-					foreground: "hsl(var(--secondary-foreground))",
+					DEFAULT: "var(--secondary)",
+					foreground: "var(--secondary-foreground)",
 				},
 				muted: {
-					DEFAULT: "hsl(var(--muted))",
-					foreground: "hsl(var(--muted-foreground))",
+					DEFAULT: "var(--muted)",
+					foreground: "var(--muted-foreground)",
 				},
 				accent: {
-					DEFAULT: "hsl(var(--accent))",
-					foreground: "hsl(var(--accent-foreground))",
+					DEFAULT: "var(--accent)",
+					foreground: "var(--accent-foreground)",
 				},
 				destructive: {
-					DEFAULT: "hsl(var(--destructive))",
-					foreground: "hsl(var(--destructive-foreground))",
+					DEFAULT: "var(--destructive)",
+					foreground: "var(--destructive-foreground)",
 				},
 
-				input: "hsl(var(--input))",
-				ring: "hsl(var(--ring))",
+				input: "var(--input)",
+				ring: "var(--ring)",
 				chart: {
-					"1": "hsl(var(--chart-1))",
-					"2": "hsl(var(--chart-2))",
-					"3": "hsl(var(--chart-3))",
-					"4": "hsl(var(--chart-4))",
-					"5": "hsl(var(--chart-5))",
+					"1": "var(--chart-1)",
+					"2": "var(--chart-2)",
+					"3": "var(--chart-3)",
+					"4": "var(--chart-4)",
+					"5": "var(--chart-5)",
 				},
 			},
 			borderRadius: {

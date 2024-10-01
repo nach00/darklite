@@ -1,15 +1,6 @@
 import LabelLink from "@/components/label-link";
 import TextStack from "@/components/text-stack";
-import {
-	Eyebrow,
-	H4,
-	Large,
-	P,
-	Quote,
-	Small,
-} from "@/components/ui/typography";
-import { ChevronRight } from "lucide-react";
-import Link from "next/link";
+import { Eyebrow, H4 } from "@/components/ui/typography";
 import React from "react";
 
 type SectionItem = {
@@ -22,11 +13,11 @@ type SectionItem = {
 
 type SectionProps = {
 	section: string;
-	data: ContentItem[];
+	data: SectionItem[];
 };
 
 type CategoryContentListProps = {
-	sections: Section[];
+	sections: SectionProps[];
 };
 
 export default function CategoryContentList({
@@ -35,9 +26,12 @@ export default function CategoryContentList({
 	return (
 		<div className="flex flex-col gap-24">
 			{sections.map(({ section, data }: SectionProps) => (
-				<div key={section} className="border-l border-base-3 pl-12 flex">
-					<H4 className="min-w-[120px]">{section}</H4>
-					<div className="flex flex-col gap-24 max-w-[640px] pl-12">
+				<div
+					key={section}
+					className="xl:border-l xl:border-base-3 xl:pl-12 flex flex-col xl:flex-row"
+				>
+					<H4 className="min-w-[120px] pb-8">{section}</H4>
+					<div className="flex flex-col gap-16 xl:gap-24 max-w-[640px] xl:pl-12">
 						{data.map(
 							({ name, url, urlLabel, title, description }: SectionItem) => (
 								<div key={name} className="flex flex-col">

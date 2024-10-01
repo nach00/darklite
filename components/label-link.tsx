@@ -15,12 +15,12 @@ export default function LabelLink({
 }: LabelLinkProps) {
 	return (
 		<>
-			<Link href={url} className="flex align-middle gap-2 text-sm">
-				{iconAfter === false && <ExternalLink size="20px" />}
+			<Link href={url} className="flex items-center gap-2 text-sm">
+				{iconAfter === false && <ExternalLink size="16px" />}
 
 				{urlLabel}
 
-				{iconAfter === true && <ChevronRight size="20px" />}
+				{iconAfter === true && <ChevronRight size="16px" />}
 			</Link>
 		</>
 	);

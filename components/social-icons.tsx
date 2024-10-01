@@ -12,7 +12,7 @@ interface SocialcIconProps {
 }
 export default function SocialIcons({ className }: SocialcIconProps) {
 	return (
-		<div className={`${className}`}>
+		<div className={`flex gap-4 pt-4 ${className}`}>
 			{socialLinks.map(({ platform, icon, url }) => (
 				<Button key={platform} variant="ghost" size="icon">
 					<Link

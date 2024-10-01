@@ -2,7 +2,6 @@
 
 import CategoryContentList from "@/components/category-content-list";
 import Heading from "@/components/heading";
-import { A, H1, Large, P, Quote, Small } from "@/components/ui/typography";
 import {
 	type UsesProps,
 	design,
@@ -10,9 +9,8 @@ import {
 	hardware,
 	productivity,
 } from "@/types/uses";
-import { ChevronRight } from "lucide-react";
-import Link from "next/link";
 import React from "react";
+
 export default function UsesPage() {
 	const sections: { section: string; data: UsesProps[] }[] = [
 		{ section: "Hardware", data: hardware },
