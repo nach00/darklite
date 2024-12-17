@@ -41,18 +41,22 @@ body {
 		--card-foreground: hsl(0deg 0% 12.549019607843137%);
 		--popover: hsl(0deg 0% 98.82352941176471%);
 		--popover-foreground: hsl(0deg 0% 12.549019607843137%);
-		--primary: 42.07792207792208 100% 54.70588235294118%;
-		--primary-foreground: 23.999999999999996 39.82300884955753%
-			22.15686274509804%;
+		--primary: hsl(42.07792207792208deg 100% 54.70588235294118%);
+		--primary-foreground: hsl(
+			23.999999999999996deg 39.82300884955753% 22.15686274509804%
+		);
 		--secondary: hsl(0deg 0% 97.6470588235294%);
 		--secondary-foreground: hsl(0deg 0% 39.21568627450981%);
 		--muted: hsl(0deg 0% 97.6470588235294%);
 		--muted-foreground: hsl(0deg 0% 39.21568627450981%);
 		--accent: hsl(0deg 0% 51.37254901960784%);
 		--accent-foreground: hsl(0deg 0% 100%);
-		--destructive: 358.4810126582278 69.2982456140351% 55.294117647058826%;
-		--destructive-foreground: 350.64935064935065 62.601626016260155%
-			24.11764705882353%;
+		--destructive: hsl(
+			358.4810126582278deg 69.2982456140351% 55.294117647058826%
+		);
+		--destructive-foreground: hsl(
+			350.64935064935065deg 62.601626016260155% 24.11764705882353%
+		);
 		--border: hsl(0deg 0% 85.09803921568627%);
 		--input: hsl(0deg 0% 85.09803921568627%);
 		--ring: hsl(0deg 0% 85.09803921568627%);
@@ -90,17 +94,20 @@ body {
 		--card-foreground: hsl(0deg 0% 93.33333333333333%);
 		--popover: hsl(0deg 0% 6.666666666666667%);
 		--popover-foreground: hsl(0deg 0% 93.33333333333333%);
-		--primary: 49.95918367346939 100% 51.9607843137255%;
-		--primary-foreground: 23.999999999999996 39.82300884955753%
-			22.15686274509804%;
+		--primary: hsl(49.95918367346939deg 100% 51.9607843137255%);
+		--primary-foreground: hsl(
+			23.999999999999996deg 39.82300884955753% 22.15686274509804%
+		);
 		--secondary: hsl(0deg 0% 9.803921568627452%);
 		--secondary-foreground: hsl(0deg 0% 70.58823529411765%);
 		--muted: hsl(0deg 0% 9.803921568627452%);
 		--muted-foreground: hsl(0deg 0% 70.58823529411765%);
 		--accent: hsl(0deg 0% 48.23529411764706%);
 		--accent-foreground: hsl(0deg 0% 100%);
-		--destructive: 359.58041958041963 79.00552486187846% 64.50980392156863%;
-		--destructive-foreground: 349.5652173913044 100% 90.98039215686275%;
+		--destructive: hsl(
+			359.58041958041963deg 79.00552486187846% 64.50980392156863%
+		);
+		--destructive-foreground: hsl(349.5652173913044deg 100% 90.98039215686275%);
 		--border: hsl(0deg 0% 22.745098039215687%);
 		--input: hsl(0deg 0% 22.745098039215687%);
 		--ring: hsl(0deg 0% 22.745098039215687%);

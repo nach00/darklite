@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 
-import { socialLinks } from "@/types/socialLinks";
+import { socialLinks } from "@/data/socialLinks";
 import Link from "next/link";
 import { string } from "prop-types";
 import React from "react";

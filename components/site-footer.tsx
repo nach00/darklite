@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Muted } from "@/components/ui/typography";
-import { navItems } from "@/types/nav";
+import { navItems } from "@/data/nav";
 import Link from "next/link";
 
 export function SiteFooter() {

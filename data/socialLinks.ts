@@ -1,4 +1,4 @@
-// types/socialLinks.ts
+// data/socialLinks.ts
 
 import type { SimpleIcon } from "simple-icons";
 import { siGithub, siInstagram, siLinkedin, siX } from "simple-icons";

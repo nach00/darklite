@@ -10,8 +10,8 @@ import {
 } from "@/components/ui/alert-dialog";
 import { buttonVariants } from "@/components/ui/button";
 import { Muted, Small } from "@/components/ui/typography";
+import { navItems } from "@/data/nav";
 import { cn } from "@/lib/utils";
-import { navItems } from "@/types/nav";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import React from "react";

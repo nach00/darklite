@@ -1,6 +1,10 @@
+// /app/about/page.tsx
+
 import ContactLinks from "@/components/contact-links";
 import Heading from "@/components/heading";
+import { generateRandomNumber } from "@/lib/utils";
 import React from "react";
+
 export default function AboutPage() {
 	return (
 		<div className="flex flex-col-reverse lg:flex-row">
@@ -35,6 +39,7 @@ export default function AboutPage() {
 					src="/static/media/profile.jpg"
 					alt="AI generated"
 					className="rounded-2xl"
+					style={{ transform: `rotate(${generateRandomNumber(-3, 3)}deg)` }}
 				/>
 
 				<ContactLinks className="hidden lg:flex" />

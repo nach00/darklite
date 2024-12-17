@@ -8,7 +8,7 @@ import {
 	development,
 	hardware,
 	productivity,
-} from "@/types/uses";
+} from "@/data/uses";
 import React from "react";
 
 export default function UsesPage() {

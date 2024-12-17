@@ -2,7 +2,7 @@ import Heading from "@/components/heading";
 import TextStack from "@/components/text-stack";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { H1, Large, P, Small } from "@/components/ui/typography";
-import { employers } from "@/types/employers";
+import { employers } from "@/data/employers";
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import React from "react";

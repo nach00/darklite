@@ -3,7 +3,7 @@ import { Briefcase } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { H4, Large, Muted, P, Small } from "@/components/ui/typography";
-import { employers } from "@/types/employers";
+import { employers } from "@/data/employers";
 import Link from "next/link";
 export default async function Newsletter() {
 	return (

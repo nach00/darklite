@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Theme } from "@radix-ui/themes";
 
 import "@radix-ui/themes/styles.css";
+import AnimatedHeader from "@/components/animated-header";
 import { SiteFooter } from "@/components/site-footer";
 import type React from "react";
 
@@ -28,8 +29,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
 				>
 					<Theme appearance="inherit">
 						<div className="flex flex-col w-[360px] lg:w-[1216px] h-full lg:border-x lg:border-base-3 lg:px-24 px-4">
-							<SiteHeader />
-							<div className="pt-9 pb-24">{children}</div>
+							{/*<SiteHeader />*/}
+							<AnimatedHeader />
+							<div
+								// className="py-32"
+								className="py-4"
+							>
+								{children}
+							</div>
 							<SiteFooter />
 						</div>
 					</Theme>

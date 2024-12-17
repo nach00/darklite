@@ -1,7 +1,7 @@
 // components/social-links.tsx
 
 import { Button } from "@/components/ui/button";
-import { socialLinks } from "@/types/socialLinks";
+import { socialLinks } from "@/data/socialLinks";
 import Link from "next/link";
 import React from "react";
 import { siGmail } from "simple-icons";

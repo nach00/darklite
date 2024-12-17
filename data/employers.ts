@@ -1,4 +1,4 @@
-// types/employers.ts
+// data/employers.ts
 
 import type { SimpleIcon } from "simple-icons";
 import { siGithub, siInstagram, siLinkedin, siX } from "simple-icons";

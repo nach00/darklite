@@ -3,7 +3,7 @@
 import CategoryContentList from "@/components/category-content-list";
 import Heading from "@/components/heading";
 import { H1, Large, P, Quote, Small } from "@/components/ui/typography";
-import { type SpeakingsProps, conferences, podcasts } from "@/types/speakings";
+import { type SpeakingsProps, conferences, podcasts } from "@/data/speakings";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import React from "react";

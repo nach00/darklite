@@ -1,4 +1,4 @@
-// types/speakings.ts
+// data/speakings.ts
 
 export type SpeakingsProps = {
 	title: string;

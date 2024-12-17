@@ -1,4 +1,4 @@
-// types/uses.ts
+// data/uses.ts
 
 export type UsesProps = {
 	name: string;
@@ -65,7 +65,7 @@ export const design: UsesProps[] = [
 	{
 		name: "Sketch",
 		description:
-			"While we've mostly moved to Figma, I still find Sketch invaluable for certain types of UI design work. Its vector editing tools are top-notch.",
+			"While we've mostly moved to Figma, I still find Sketch invaluable for certain data of UI design work. Its vector editing tools are top-notch.",
 	},
 ];
 
